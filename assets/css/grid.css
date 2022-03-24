@@ -1,8 +1,8 @@
 
-.row{display: flex;}
+.row{display: flex; flex-wrap: wrap; margin-left: auto; margin-right: auto;}
 .col-1{flex: 0 0 8.33%;}
 .col-2{flex: 0 0 16.66%;}
-.col-3{flex: 0 0 25%;}
+.col-3{flex: 0 0 25%;transition: transform 500ms;}
 .col-4{flex: 0 0 33.33%;}
 .col-5{flex: 0 0 41.66%;}
 .col-6{flex: 0 0 50%;}
