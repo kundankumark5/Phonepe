@@ -2,6 +2,7 @@
   padding: 0px;
   margin:0px;
   font-family: UniNeue,sans-serif,Helvetica,Arial;
+  font-size: 16px;
 box-sizing: border-box;
 }
 
@@ -65,7 +66,7 @@ background-image: url("./hp-banner1.png");
 background-size: 100%;
 background-repeat: no-repeat;
 margin-top:auto;
-  padding:14rem 0rem ;
+  padding:14rem 0rem 5rem;
 
 }
 .img{
@@ -85,7 +86,7 @@ margin-left: 350px;
 
 .container{
   
-  max-width: 1280px;
+  max-width: 1350px;
   height:100%;
   margin-left: auto;
   margin-right: auto;
@@ -180,12 +181,12 @@ margin-left: 350px;
   text-align: center;
   border-radius: 33px;
   font-size: 1.125rem;
-  position: absolute;
-  padding: 12px 40px;
+  
+  padding: 12px 50px;
   
   letter-spacing: -0.27px;
-  margin-top: 7rem;
-  margin-left: 17rem;
+  margin-top: 10%;
+  margin-left: 20%;
 
 }
 .center{
@@ -206,11 +207,10 @@ margin-left: 350px;
   margin-right: auto;
   font-weight: 550;
   color: #626262;
+  
 
 }
 .vidButton{
-
-  
   border-radius: 22px;
   border: 2px solid #371f7b;
   color: #371f7b;
@@ -236,17 +236,109 @@ font-weight: 500;
   justify-content: center;
   width: 100%;
   height: max-content;
+  margin-bottom: 150px;
   
+}
+.w-full{
+  width: 100%;
+  min-width: max-content;
+  
+}
+.showcase{
+  width: 100%;
+  background: linear-gradient(#ddd8fa, #fff);
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 100px;
+}
+.showcase__title{
+  text-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+    font-size: 2.625rem;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: -.63px;
+    color: #361968;
+    margin-bottom: 5rem;
+}
+.showcase__button{
+  width: 20%;
+  margin: 0 auto;
+  
+}
+.showButton{
+  text-decoration: none;
+  color: #fff;
+  border-radius: 33px;
+  border: none;
+  background-color: #07c3de;
+  padding: 1rem 4rem;
+}
+.absolute{
+  
+  position: absolute;
+  width: 130%;
+  overflow: hidden;
+  transition: transform 500ms;
+  margin-bottom: 30px;
+  z-index: 0;
+}
+.absolute:hover{
+  transform: scale(1.25, 1.25);
+  transform-origin: center;
+  z-index: 1;
+
 }
 .logoBelow{
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
+}
+.secureMoney{
+  width: 100%;
+  background: #967edd;
+  color: #fff;
+  display: flex;
+  background-image: url("./images/trust-banner-29acd6391200d69ad22567eb1a15a10b.png");
+  padding: 22px;
+  transform: translateY(138px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-start;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 32px;
+  background-position: right 38px top -4px;
+  align-items: center;
+}
+.secureMoney__logo{
+  margin-left: 52px;
+}
+.secureMoney__container{
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
   
 }
-.col-3:hover{
-  transform: scale(1.25, 1.25);
-  transform-origin: center;
-
+.secureMoney .secureMoney__container h2{
+  text-shadow: 0 2px 4px rgb(0 0 0 / 5%);
+    font-size: 2.625rem;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+.secureMoney .secureMoney__container p{
+  font-size: 1rem;
+    line-height: 1.8;
+    width: 92%;
+}
+.secureMoney__logo2{
+  margin-top: 52px;
+}
+.secureMoney__logo2 img{
+  display: inline-block;
+  width: 100px;
+  margin-right: 32px;
+  vertical-align: middle;
 }
 .d-xs-block{display: none;}
 @media screen and (max-width:768px) {
